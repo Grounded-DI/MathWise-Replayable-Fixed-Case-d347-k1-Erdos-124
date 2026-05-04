@@ -1,4 +1,4 @@
-Grounded DI LLC - MathWise is Patent-Pending 
+Grounded DI LLC - MathWise (Math + Deterministic Intelligence) 
 
 ___
 
