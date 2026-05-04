@@ -1,0 +1,208 @@
+FIXED_CASE_PACKAGE_MANIFEST.txt
+
+MathWise DI² — Fixed-Case Package Manifest
+
+Integrity:
+
+    DriftIndex = 0.000000
+    Entropy status ΔH = 0.0025
+
+Fixed scope:
+
+    D = {3,4,7}, k = 1 only
+    no general BEGL result claimed
+    no result for other D
+    no result for k ≠ 1
+    no endpoint below 582 claimed
+
+Fixed conclusion:
+
+    [582,∞) ⊂ A_1({3,4,7})
+
+Dependency note:
+
+    Any dependency not contained directly in an artifact is marked:
+    IMPORTED FROM SEALED CHECKPOINT — NOT REPROVED HERE.
+
+============================================================
+ARTIFACT 1
+============================================================
+
+Artifact name:
+
+    RAW_CHECKPOINT_LEDGER.txt
+
+Artifact type:
+
+    checkpoint record
+
+Purpose:
+
+    Chronological checkpoint ledger for the fixed-case development.
+
+Scope:
+
+    D = {3,4,7}, k = 1 only.
+
+Status:
+
+    Completed.
+
+Contents:
+
+    - interval certificate checkpoint
+    - Case 1 closed checkpoint
+    - Case 2 closed checkpoint
+    - Case 3 closed checkpoint
+    - survivor systems closed checkpoint
+    - coarse extra candidates eliminated checkpoint
+    - residual Gap Sublemma checkpoint
+    - direct interval-overlap route checkpoint
+    - Weighted Gap Lemma checkpoint
+    - global overlap inequality checkpoint
+    - final fixed-case conclusion checkpoint
+
+Dependencies:
+
+    IMPORTED FROM SEALED CHECKPOINT — NOT REPROVED HERE:
+        - Case 1 survivor closure
+        - Case 2 survivor closure
+        - Case 3 survivor closure
+        - coarse extra candidate closure
+        - Weighted Gap Lemma proof by full paired modular certificates
+        - direct interval-overlap closure
+
+Conclusion recorded:
+
+    [582,∞) ⊂ A_1({3,4,7})
+
+============================================================
+ARTIFACT 2
+============================================================
+
+Artifact name:
+
+    FixedCase_D347_k1_Proof.tex
+
+Artifact type:
+
+    proof text
+
+Purpose:
+
+    LaTeX proof package for the fixed case only.
+
+Scope:
+
+    D = {3,4,7}, k = 1 only.
+
+Status:
+
+    Completed.
+
+Required theorem statement:
+
+    [582,\infty) \subset A_1({3,4,7}).
+
+Sections included:
+
+    - Scope and Non-Claims
+    - Theorem Statement
+    - Initial Power List and Interval Certificate
+    - Direct Interval-Overlap Lemma
+    - Weighted Next-Gap Identities
+    - Weighted Gap Lemma
+    - Full Paired Modular Certificates
+    - Direct Propagation
+    - Final Conclusion
+    - Appendix: Survivor-System Compatibility
+
+Dependencies:
+
+    Directly included:
+        - finite interval certificate statement
+        - interval-overlap lemma
+        - weighted next-gap identities
+        - direct propagation structure
+        - fixed scope limitations
+
+    IMPORTED FROM SEALED CHECKPOINT — NOT REPROVED HERE:
+        - finite full paired modular certificate table completeness
+        - Weighted Gap Lemma certificate completion
+        - survivor-system compatibility closure counts
+
+Conclusion stated:
+
+    [582,∞) ⊂ A_1({3,4,7})
+
+============================================================
+ARTIFACT 3
+============================================================
+
+Artifact name:
+
+    audit_fixed_case_d347_k1.py
+
+Artifact type:
+
+    audit code
+
+Purpose:
+
+    Python audit script for the fixed-case package.
+
+Scope:
+
+    D = {3,4,7}, k = 1 only.
+
+Status:
+
+    Completed.
+
+Audit checks:
+
+    - verifies interval certificate [582,4460]
+    - verifies final modular certificate for (236,1017)
+    - includes survivor-label closure checks as compatibility audit only
+    - prints PASS, CONDITIONAL PASS, or FAIL
+    - preserves DriftIndex = 0.000000
+    - preserves Entropy status ΔH = 0.0025
+
+Dependencies:
+
+    Directly checked:
+        - subset-sum coverage for [582,4460]
+        - final modular certificate arithmetic for (236,1017)
+
+    IMPORTED FROM SEALED CHECKPOINT — NOT REPROVED HERE:
+        - complete survivor-label closure tables
+        - full paired modular certificate completion for the Weighted Gap Lemma
+        - final direct interval-overlap closure
+
+Conclusion audited:
+
+    [582,∞) ⊂ A_1({3,4,7})
+
+============================================================
+PACKAGE STATUS
+============================================================
+
+Completed artifacts:
+
+    1. RAW_CHECKPOINT_LEDGER.txt
+    2. FixedCase_D347_k1_Proof.tex
+    3. audit_fixed_case_d347_k1.py
+
+Package conclusion:
+
+    [582,∞) ⊂ A_1({3,4,7})
+
+Package scope:
+
+    D = {3,4,7}, k = 1 only
+    no general BEGL result claimed
+    no result for other D
+    no result for k ≠ 1
+    no endpoint below 582 claimed
+
+END FIXED_CASE_PACKAGE_MANIFEST.txt
