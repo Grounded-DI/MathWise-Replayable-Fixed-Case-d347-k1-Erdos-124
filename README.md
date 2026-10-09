@@ -125,3 +125,8 @@ This is a fixed-case mathematical proof and certificate archive. It is not a gen
 ## Contact
 
 Use the [Grounded DI GitHub organization](https://github.com/Grounded-DI) for collaboration, evaluation, licensing, or integration inquiries.
+
+
+## Curated collection
+
+This fixed-case package is indexed in [MathWise Deterministic Replay Certificates](https://github.com/Grounded-DI/MathWise-Deterministic-Replay-Certificates/tree/main/erdos-124-fixed-case-d347-k1). This repository remains the canonical source for the package and its scope statements.
